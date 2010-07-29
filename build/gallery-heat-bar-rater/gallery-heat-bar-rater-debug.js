@@ -279,7 +279,7 @@ YUI.add('gallery-heat-bar-rater', function(Y) {
 	
 	  /*
            * Override the default content box value, since we don't want the srcNode
-           * to be the content box for spinner.
+           * to be the content box for heat bar rater
            */
           _defaultCB : function() {
                 return null;
@@ -297,4 +297,4 @@ YUI.add('gallery-heat-bar-rater', function(Y) {
 	Y.HeatBarRater = HeatBarRater; //injecting the new class into the sandbox
 
 
-}, '@VERSION@' ,{requires:['widget','substitute','stylesheet','event-mouseenter','selector-css3']});
+}, '@VERSION@' ,{requires:['widget','substitute','stylesheet','event-mouseenter','selector-css3'], skinnable:true});

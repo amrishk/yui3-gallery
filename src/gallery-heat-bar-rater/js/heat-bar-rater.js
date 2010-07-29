@@ -277,7 +277,7 @@
 	
 	  /*
            * Override the default content box value, since we don't want the srcNode
-           * to be the content box for spinner.
+           * to be the content box for heat bar rater
            */
           _defaultCB : function() {
                 return null;
